@@ -1,0 +1,71 @@
+
+
+
+.contect-section{
+ 
+  width:97vw;
+  height: auto;
+  background-color: black;
+  margin-top: 7%;
+  color: white;
+}
+
+
+.contect-container{
+    display: flex;
+    margin:20px;
+    line-height: 50px;
+    gap:50px;
+}
+
+.contect-left{
+
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    box-shadow: 1px 1px 5px 1px white;
+}
+
+.contect-container h1{
+
+    font-size: 90px;
+    margin-left: 10%;
+}
+
+.contect-container h2{
+  
+    font-size: 30px;
+    
+}
+
+
+.contect-container h3{
+  
+    font-size: 20px;
+    
+}
+.contect-left{
+
+    width:50%;
+    height: auto;
+}
+
+.contect-right{
+
+    width:50%;
+    height: auto;
+    font-size: 40px;
+    box-shadow: 1px 1px 5px 1px white;
+}
+
+.contect-right input{
+
+    width:250px;
+    height: 30px;
+}
+
+.contect-right textarea{
+
+    width:400px;
+    height: 70px;
+}

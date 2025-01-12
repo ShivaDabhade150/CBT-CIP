@@ -1,0 +1,47 @@
+
+
+body{
+
+    background-color: rgb(255,170,165);
+    font-size: 20px;
+    gap:50px;
+    margin:100px;
+}
+
+.div{
+    width: 200px;
+    height: 200px;
+    font-size: 39px;
+    background-color: red;
+}
+
+
+form{
+    
+    
+ 
+  height: auto;
+  text-align: start;
+  border:1px solid black;
+  padding:10px 0 10px 40px;
+  margin-right: 40%;
+  margin-left: 40%;
+  margin-top:5%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px rgb(255,139,148);
+}
+
+form:hover{
+
+    transform: translateY(-1%);
+}
+
+form input{
+
+    font-size: 20px;
+    border:none;
+    box-shadow: 1px 1px 10px 1px rgb(232, 103, 18);
+    height: 30px;
+}
+

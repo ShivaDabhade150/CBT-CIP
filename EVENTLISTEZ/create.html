@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crate Event</title>
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+
+
+  <nav class="nav-bar">
+
+    <div class="nav-log"><span>EvEntS</span></div>
+    <div class="nav-container">
+
+      <ul class="ul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="new_gallery.html">Gallery</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="List.html">Event_List</a></li>
+        <li><a href="create.html"> Create_Event</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <input type="text" placeholder="Search">
+        <button class="btn">Search</button>
+
+      </div>
+
+    </div>
+  </nav>
+  <br>
+  <br>
+
+     <div class=".div">
+      <h1>Time to create Event</h1>
+     </div>
+    
+    <form action="submit.html" method="GET" >
+        
+        <p>Enter Your Name</p>
+        <input type="text" placeholder="Enter Name of Event">
+        <br>
+        
+        <p>Enter date of Event</p>
+        <input type="date" placeholder="Enter Date of Event">
+
+        <p>Enter date of Event</p>
+        <input type="time">
+
+         <p>Select Your State
+        <select>
+            <option>Maharashtra</option>
+            <option>Meghalaya</option>
+            <option>Uttar Pradesh</option>
+            <option>West Bengal</option>
+            <option>Assam</option>
+            <option>Gujarat</option>
+        </select>
+
+        <br>
+        <br>
+          <div class="state">
+
+            <label>
+                <input type="radio" name="event" value="Wedding">
+                Wedding
+              </label>
+              <br>
+            
+              <label>
+                <input type="radio" name="event" value="Birthday">
+                Birthday
+              </label>
+              <br>
+            
+              <label>
+                <input type="radio" name="event" value="Corporate Event">
+                Corporate Event
+              </label>
+              <br>
+            
+              <label>
+                <input type="radio" name="event" value="Concert">
+                Concert
+              </label>
+              <br>
+            
+              <label>
+                <input type="radio" name="event" value="Others">
+                Others
+              </label>
+          </div>
+
+          <br>
+          <br>
+          <textarea>Enter Information</textarea>
+          
+          <br>
+          <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

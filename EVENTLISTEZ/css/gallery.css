@@ -1,0 +1,23 @@
+
+.bg{
+    background-color:aqua;
+}
+
+
+.gallery-container button{
+
+    padding-top:10px;
+}
+
+
+.gallery-container a {
+
+    text-decoration: none;
+    color:black;
+}
+
+#btn-a{
+    
+    text-decoration: none;
+    color: black;
+}
